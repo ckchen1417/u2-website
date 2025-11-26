@@ -1,0 +1,30 @@
+{
+  "name": "learnhub-landing-page",
+  "version": "1.0.0",
+  "description": "A modern Udemy-style landing page with course listings and pagination",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "npx serve . -p 3000",
+    "deploy:netlify": "netlify deploy --prod",
+    "deploy:vercel": "vercel --prod"
+  },
+  "keywords": [
+    "landing-page",
+    "udemy",
+    "courses",
+    "education",
+    "static-site"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/learnhub-landing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/learnhub-landing/issues"
+  },
+  "homepage": "https://github.com/yourusername/learnhub-landing#readme"
+}
+
